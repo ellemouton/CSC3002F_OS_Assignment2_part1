@@ -23,6 +23,3 @@ default: $(CLASS_FILES)
 
 clean:
 	/bin/rm $(PATH)/*.class
-
-run:
-	$(JAVA) $(PATH)/BarrierTest ${ARGS}
