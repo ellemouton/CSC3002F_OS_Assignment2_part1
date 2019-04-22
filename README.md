@@ -14,7 +14,9 @@ To run the code:
 	
 	From the same folder as this README file and Makefile, type:
 
-			java BarrierS.BarrierTest <num Threads> <barrier size>
+			java BarrierS.BarrierTest <barrier_size> <num_Threads>
+
+	make sure that num_Threads>=barrier_size, else the barrier will never open
 
 	for example, 5 threads and barrier size of 5:
 
